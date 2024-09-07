@@ -2,13 +2,14 @@ package main
 
 import (
 	"fmt"
-	"github.com/alexedwards/scs/v2"
-	"github.com/carlosclavijo/bookings/pkg/config"
-	"github.com/carlosclavijo/bookings/pkg/handlers"
-	"github.com/carlosclavijo/bookings/pkg/render"
 	"log"
 	"net/http"
 	"time"
+
+	"github.com/alexedwards/scs/v2"
+	"github.com/carlosclavijo/bookings/internal/config"
+	"github.com/carlosclavijo/bookings/internal/handlers"
+	"github.com/carlosclavijo/bookings/internal/render"
 )
 
 const portNumber = ":8080"
@@ -29,7 +30,7 @@ func main() {
 	app.Session = session
 	tc, err := render.CreateTemplateCache()
 	if err != nil {
-		log.Fatal("cannot create template cache")
+		log.Fatal("cannot create template cache\n", err)
 	}
 	app.TemplateCache = tc
 	app.UseCache = false
