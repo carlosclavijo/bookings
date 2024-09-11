@@ -1,0 +1,18 @@
+mode: set
+github.com/carlosclavijo/bookings/internal/forms/errors.go:6.44,8.2 1 1
+github.com/carlosclavijo/bookings/internal/forms/errors.go:11.42,13.18 2 0
+github.com/carlosclavijo/bookings/internal/forms/errors.go:13.18,15.3 1 0
+github.com/carlosclavijo/bookings/internal/forms/errors.go:16.2,16.14 1 0
+github.com/carlosclavijo/bookings/internal/forms/forms.go:19.29,21.2 1 1
+github.com/carlosclavijo/bookings/internal/forms/forms.go:24.33,29.2 1 1
+github.com/carlosclavijo/bookings/internal/forms/forms.go:32.43,33.31 1 1
+github.com/carlosclavijo/bookings/internal/forms/forms.go:33.31,35.37 2 1
+github.com/carlosclavijo/bookings/internal/forms/forms.go:35.37,37.4 1 1
+github.com/carlosclavijo/bookings/internal/forms/forms.go:42.56,44.13 2 1
+github.com/carlosclavijo/bookings/internal/forms/forms.go:44.13,47.3 2 1
+github.com/carlosclavijo/bookings/internal/forms/forms.go:48.2,48.13 1 1
+github.com/carlosclavijo/bookings/internal/forms/forms.go:52.57,54.21 2 1
+github.com/carlosclavijo/bookings/internal/forms/forms.go:54.21,57.3 2 1
+github.com/carlosclavijo/bookings/internal/forms/forms.go:58.2,58.13 1 1
+github.com/carlosclavijo/bookings/internal/forms/forms.go:61.38,62.40 1 1
+github.com/carlosclavijo/bookings/internal/forms/forms.go:62.40,64.3 1 1
