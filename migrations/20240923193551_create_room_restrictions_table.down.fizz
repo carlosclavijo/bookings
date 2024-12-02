@@ -1,1 +1,1 @@
-sql("drop table room_restrictions")
+drop_table("room_restrictions")
